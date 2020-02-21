@@ -12,7 +12,7 @@ Built-in Quality | Quality should be part of the process and not a separate acti
 
 # reference architecture
 
-![alt text](https://github.com/uspto/playbook/images/refarch.png "Reference Architecture")
+![alt text](https://github.com/USPTO/playbook/blob/master/refarch.png "Reference Architecture")
 
 # technology toolbox
 
