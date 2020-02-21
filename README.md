@@ -23,7 +23,7 @@ Agile |	Collaboration |	Sharepoint
 Agile |	Communicatio |	Microsoft Teams
 Agile |	Scrum/Kanban Board |	Rally
 Data |	Caching |	Redis, MemcacheD
-Data |	Cluste |r	Hadoop, Spark
+Data |	Cluster |	Hadoop, Spark
 Data |	Content Management |	Alfresco
 Data |	Data Science |	Jupyter Notebook, Python
 Data |	Document |	MongoDB
