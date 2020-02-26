@@ -17,48 +17,48 @@ Built-in Quality | Quality should be part of the process and not a separate acti
 # technology toolbox
 
 Hierarchy |	Technology | Tools
---- | --- | ---
+--- | --- | --- 
 Agile |	Code Repository |	GitHub, GitLabs
 Agile |	Collaboration |	Sharepoint
 Agile |	Communicatio |	Microsoft Teams
-Agile |	Scrum/Kanban Board |	Rally
-Data |	Caching |	Redis, MemcacheD
-Data |	Cluster |	Hadoop, Spark
+Agile |	Project Management (APM) |	Rally
+Data |	Caching |	Redis, MemcacheD, AWS ElastiCache (For Redis)
+Data |  CDN | AWS CloudFront
+Data |	Cluster |	Hadoop, Spark, Ambari
+Data |	Data Science |	Jupyter Notebook, Python, R Lang, Julia, Apache Zepplin
 Data |	Content Management |	Alfresco
-Data |	Data Science |	Jupyter Notebook, Python
-Data |	Document |	MongoDB
-Data |	ETL |	Pentaho
-Data |	Graph |	Neo4J
-Data |	Queue | Kafka, ActiveMQ
-Data |	Relational |	PostgreSQL, MySQL, MariaDB, Oracle
+Data |	DB - Document |	MongoDB
+Data |	DB - Graph |	Neo4J
+Data |	DB - Relational |	Percona MySQL, Oracle, AWS Aurora (MySQL/Postgres), AWS RDS (Oracle)
+Data |	ETL |	Apache NiFi, Alteryx, AWS Glue
+Data |	Queue & Streaming | Kafka, Jboss AMQ, AWS Kinesis Data Streams (Kafka), AWS Kinesis Firehose (Kafka), AWS SNS & SQS
 Data |	Search |	Elasticsearch, Solr
-Data |	Streaming |	Kafka
-Data |	Version Control |	Liquibase
-Data |	Visualization |	Tableau
+Data |	Schema Version Control |	Liquibase
+Data |	Visualization |	Tableau, Kibana, Azure PowerBI, AWS QuickSight
 Development |	API |	Swagger, OpenAPI
-Development |	Authentication/Authorization |	Keycloak, Okta, Oracle IAM
+Development |	Authentication/Authorization | Okta, Oracle IAM, AWS IAM, Azure AD
 Development |	Frameworks |	Spring Framework
 Development |	Backend |	Spring Boot, Node.js
-Development |	Build Packages |	Maven, Gradle, NPM, Webpack
-Development |	Frontend |	Angular, React, Vue
-Development |	IDE |	Eclipse, Sublime, IntelliJ
+Development |	Build |	Maven, NPM, Webpack, Angular CLI, Bower, Gulp, AWS CodeBuild
+Development |	Frontend |	Angular, Vue
+Development |	IDE |	Eclipse, Sublime, IntelliJ, R Studio, VS Code, Ananconda
 Development |	Languages |	Java, JavaScript, TypeScript
 Development |	ORM | 	Hibernate, Sequelize
-Development |	Style |	USWDS, Bootstrap, HTML5, CSS3, SASS
-Infrastructure |	API Gateway |	Kong, Zuul
+Development |	Style |	USWDS, Bootstrap, HTML5, CSS3, SASS, USPTO Design Library
+Infrastructure |	API Gateway |	AWS API Gateway, Zuul, Mulesoft, Kong
+Infrastructure |	Service Mesh |	Istio, Eureka, Mulesoft, Kong
 Infrastructure |	Cloud |	AWS, Azure, GCP
 Infrastructure |	Container |	Docker
-Infrastructure |	IaC |	Terraform
-Infrastructure |	Orchestration |	Kubernetes
+Infrastructure |	IaC |	Terraform, AWS Cloud Development Kit (CDK)
+Infrastructure |	Orchestration |	Kubernetes, AWS ECS
 Infrastructure |	Pipeline |	Jenkins, AWS CodeDeploy
 Infrastructure |	Platform |	OpenShift
 Infrastructure |	Repository Manager |	Nexus
-Infrastructure |	Service Mesh |	Istio
 Operations |	Dashboards |	Grafana, Kibana
 Operations |	Metrics |	Prometheus, Logstash
 Operations |	Monitoring |	Splunk
 Operations |	APM |	AppDynamics
-Testing |	Accessibility/508 |	Pa11y
+Testing |	Accessibility/508 |	Pa11y, ANDI, Wave Plug-In for Chrome by Webaim
 Testing |	Integration |	Selenium, Protractor, Cucumber
 Testing |	Penetration |	OWASP ZAP, Fortify, WebInspect
 Testing |	Performance |	JMeter, Gatling
