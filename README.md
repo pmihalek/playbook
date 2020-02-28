@@ -29,13 +29,17 @@ Hierarchy |	Technology | Tools
 --- | --- | ---
 Agile |	Code Repository |	GitHub, GitLabs
 Agile |	Collaboration |	Sharepoint
-Agile |	Communicatio |	Microsoft Teams
-Agile |	Scrum/Kanban Board |    Rally
-Data |	Caching |   MemcacheD, Amazon ElastiCache, Amazon Cloud Front
+Agile |	Communication |	Microsoft Teams
+Agile |	Scrum/Kanban Board |	Rally
+Data |	Caching | Redis, MemcacheD, Amazon ElastiCache, Amazon Cloud Front
 Data |	Cluster |	Hadoop, Spark, Ambari
 Data |	Content Management |	Alfresco, Patent CMS
 Data |	Data Science |	Jupyter Notebook, Python, R Lang, Julia, Apache Zeppelin
 Data |	Document |	MongoDB
+Data |	Caching |	MemcacheD
+Data |	Cluster |	Hadoop, Spark
+Data |	Content Management |	Alfresco
+Data |	Data Science |	Jupyter Notebook, Python
 Data |	ETL |	PenApache NiFi, Alteryx, Amazon Gluetaho
 Data |	Graph |	Neo4J, Amazon Neptune, Azure Cosmos DB
 Data |	Queue & Streaming | Kafka, Jboss AMQ, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK)
